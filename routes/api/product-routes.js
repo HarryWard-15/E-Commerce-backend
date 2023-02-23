@@ -136,7 +136,7 @@ router.delete('/:id', (req, res) => {
 		},
 	})
 	.then((product) => {
-		res.json(`${delProduct} was removed from the database`);
+		res.json(`Your product was removed from the database`);
 	})
 	.catch((err) => {
 		res.json(err);
